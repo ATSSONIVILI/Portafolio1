@@ -1,0 +1,26 @@
+.fondo{
+    background-color: cornflowerblue;
+}
+.fondo1
+{
+    background-color:white;
+}
+.proyectos{
+    display: flex;
+    
+}
+
+p1{
+    margin: 0px 25px;
+}
+
+p2{
+    margin left:0px  25px;
+}
+p3{
+    margin right:0px 30%px;
+}
+
+a{
+    text-decoration: none;
+}
