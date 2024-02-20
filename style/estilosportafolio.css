@@ -1,14 +1,25 @@
 .fondo{
-    background-color: cornflowerblue;
+   background-image: url(../assets/img/banner.jpg);
 }
 .fondo1
 {
-    background-color:white;
+    background-color:rgb(52, 166, 197);
 }
+
+.fondoproyectos{
+    background-image: url(../assets/img/fondo...jpg);
+}
+
+.propuesta{
+    background-color:#00A3e0
+}
+
+
 .proyectos{
     display: flex;
     
 }
+
 
 p1{
     margin: 0px 25px;
@@ -23,4 +34,27 @@ p3{
 
 a{
     text-decoration: none;
+}
+
+
+.text{
+        font-family: "Anton", sans-serif;
+        font-weight: 400px;
+        font-style: normal;
+        background-color: white;
+        color: white;
+      }     
+
+h1{
+    animation: mover-izquierda-derecha 2s 1;
+}
+
+@keyframes mover-izquierda-derecha{
+    from{
+        transform: translate(-100px);
+    }
+
+    to{
+        transform: translate(50px);
+    }
 }

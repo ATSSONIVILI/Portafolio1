@@ -6,41 +6,47 @@
     <title>Consolidados pendientes</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="icon" href="./assets/img/computer.png">
+    <link rel="stylesheet" href="./style/estilosportafolio.css">
 </head>
-<body>
+<body> 
     <header>
-        <nav class="navbar bg-body-tertiary">
-            <div class="container">
+        <nav class="navbar">
+            <div class="container-fluid propuesta">
                 <img src="./assets/img/SURA.jpg" alt="Bootstrap" width="80" height="80">
-                <a href="index.html"  style="text-decoration: none;">Portafolio</a>
-                  
+                <p style="color: white;"> Pendiente de facturación</p>
             </div>
           </nav>
     </header>
     
     <main>
+
       <div class="col-6">
-        <h6> Especifica tu área </h6>
+        <h6> Indica el área a la que perteneces.</h6>
             <div class="input-group mb-3">
                 <span class="input-group-text">
                     <i class="bi bi-envelope-at-fill"></i>
                 </span>
-                <input type="email" class="form-control" placeholder="facturación@sura.com">
+                <input type="email" class="form-control" placeholder="Ejm:facturacióncali@sura.com">
             </div>
             <br>
             <select class="form-select" aria-label="Default select example">
-              <option selected> Por favor escoja el tipo de corrección solicitada </option>
-              <option value="1">órdenes con espacios</option>
-              <option value="2">órdenes en convenio incorrecto</option>
-              <option value="2">órdenes con ingresos dobles</option>
+              <option selected> Por favor escoja el tipo de solicitud </option>
+              <option value="1">Órdenes con espacios</option>
+              <option value="2">Órdenes en convenio incorrecto</option>
+              <option value="2">Órdenes con ingresos dobles</option>
+              <option value="2">Retiro de marca automática</option>
+              <option value="2">Población de autorización externa</option>
+              <option value="2">Material no existe</option>
+              <option value="2">Pobación cargos</option>
             </select>
               
-          <div class="input-group mb-3">
+          <div class="input-group mt-2">
                 <span class="input-group-text">
                     <i class="bi bi-unlock"></i>
                 </span>
                 <input type="text" class="especificaciones" placeholder="cantidad ejm:25">
             </div>
+            <br>
             <div class="input-group mb-3">
                 <span class="input-group-text">
                     <i class="bi bi-unlock text-black"></i>
@@ -48,14 +54,29 @@
                 <input type="text" class="form-control" placeholder="Observaciones">
                 
             </div>
+            <br>
             <div class="mb-3">
-                <label for="formFile" class="form-label">Ingresar archivo de autorizaciones</label>
+                <label for="formFile" class="archivoexcel">Ingresar archivo de autorizaciones</label>
                 <input class="form-control" type="file" id="formFile">
+                <a href=""></a>
+                
+                <br>
+                <br>
+                <a href="index.html"  style="text-decoration: none;">Inicio</a>
             </div>
+        </section>
 
 </div>
 </div>
 </section>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>    
+<footer>
+    <p style="color: blue;"> En este caso la propuesta esta definida para re-organizar la manera en que en la actualidad 
+        se obtiene la información y como se gestionan a su vez las posibles novedades en los aplicativos de la 
+    compañia. Al final de esta lo que se pretende es calcular cantidad de reportes por área, por incidente y regional
+    y con este generar complementos a informes como gráficos o respuestas de la gestión vía correo al área afectada.
+    Mejorando así los tiempos de respuesta y  apoyando los ajustes de los procesos que retrasan la facturación.
+</p>
+</footer>
 </body>
 </html>
